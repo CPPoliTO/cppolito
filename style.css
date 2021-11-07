@@ -124,10 +124,6 @@ a:hover {
     justify-content: center;
 }
 
-#normal-flexbox {
-    display: flex;
-}
-
 .title-magenta-0 {
     text-align: center;
     color: #D250DA;
@@ -148,18 +144,32 @@ a:hover {
     padding: 2%;
 }
 
+.normal-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+    .normal-flexbox {
+      flex-direction: column;
+    }
+    .img-in-card {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
 .img-in-card {
     border-radius: 5px;
 
     max-width: 40%;
     max-height: 40%;
 
-    flex: 40%;
+    flex: 1;
 }
 
 .art-in-card {
-    display: inline-block;
-    margin-left: 45%;
-
     flex: 40%;
+    padding: 10px;
 }
