@@ -119,7 +119,7 @@ a:hover {
     display: inline;
 }
 
-#center-flexbox {
+.center-flexbox {
     display: flex;
     justify-content: center;
 }
@@ -174,7 +174,18 @@ a:hover {
     padding-right: 25px;
 }
 
+footer {
+    background-color: #121212;
+}
+
 #menu {
     background-color: #121212;
     padding: 1%;
+}
+
+#end-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
