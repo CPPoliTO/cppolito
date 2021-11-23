@@ -173,3 +173,8 @@ a:hover {
     flex: 40%;
     padding-right: 25px;
 }
+
+#menu {
+    background-color: #121212;
+    padding: 1%;
+}
