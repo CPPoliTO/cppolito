@@ -164,6 +164,8 @@ a:hover {
 .img-in-card {
     border-radius: 5px;
 
+    align-self: center;
+
     max-width: 40%;
     max-height: 40%;
 
