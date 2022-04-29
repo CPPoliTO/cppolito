@@ -198,7 +198,7 @@ footer {
     height: 40px;
 }
 
-ul{padding: 0 !important;}
+ul.footer{padding: 0 !important;}
 
 #site-menu, #social-menu {
     list-style-position: inside;
