@@ -6,7 +6,7 @@ Team (CPPoliTO).
 ## How is this website written?
 
 This is a static website, and it has been written in plain HTML/CSS, no
-framework has been used.
+framework or JavaScript has been used.
 
 ## Repository structure
 
