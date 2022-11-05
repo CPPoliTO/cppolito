@@ -3,6 +3,8 @@
 This is the repository for the website of the Competitive Programming PoliTO
 Team (CPPoliTO).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eab5a36d-d612-4909-bee9-e8fac540987e/deploy-status)](https://app.netlify.com/sites/cppolito/deploys)
+
 ## How is this website written?
 
 This is a static website, and it has been written in plain HTML/CSS, no
