@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2048"
+   height="2048"
+   viewBox="0 0 541.86665 541.86668"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/fra/polito/cppolito_imgs/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.28061869"
+     inkscape:cx="958.59617"
+     inkscape:cy="1190.2272"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="643.97141,541.86667"
+       orientation="0,1"
+       id="guide824"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="729.101,0"
+       orientation="0,1"
+       id="guide826"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,357.06668"
+       orientation="-1,0"
+       id="guide828"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="541.86667,351.40953"
+       orientation="-1,0"
+       id="guide830"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-115.02857,270.93333"
+       orientation="0,1"
+       id="guide1090"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(246,211,45)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="255.26907"
+       y="868.05418"
+       width="1487.7722"
+       height="369.61852"
+       id="rect2612" />
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#212121;fill-rule:evenodd;stroke-width:0.264583;fill-opacity:1"
+       id="rect854"
+       width="541.86664"
+       height="541.86664"
+       x="0"
+       y="-5.0000003e-06" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.31266667,0,0,0.31266667,-15.207454,-33.549286)"
+       id="text2610"
+       style="font-size:192px;line-height:1.25;font-family:'Zeroes 1';-inkscape-font-specification:'Zeroes 1, ';letter-spacing:0px;white-space:pre;shape-inside:url(#rect2612)"><tspan
+         x="255.26953"
+         y="1037.9297"
+         id="tspan44138"><tspan
+           style="font-weight:bold;font-family:Hack;-inkscape-font-specification:'Hack Bold';fill:#ff8200"
+           id="tspan44126">CP</tspan><tspan
+           style="font-weight:bold;font-family:Hack;-inkscape-font-specification:'Hack Bold';fill:#d250da"
+           id="tspan44128">.</tspan><tspan
+           style="font-weight:bold;font-family:Hack;-inkscape-font-specification:'Hack Bold';fill:#00acff"
+           id="tspan44130">Poli</tspan><tspan
+           style="font-weight:bold;font-family:Hack;-inkscape-font-specification:'Hack Bold';fill:#f7f7f7"
+           id="tspan44132">(</tspan><tspan
+           style="font-weight:bold;font-family:Hack;-inkscape-font-specification:'Hack Bold';fill:#ff8200"
+           id="tspan44134">TO</tspan><tspan
+           style="font-weight:bold;font-family:Hack;-inkscape-font-specification:'Hack Bold';fill:#f7f7f7"
+           id="tspan44136">);</tspan></tspan></text>
+  </g>
+</svg>
