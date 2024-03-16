@@ -26,34 +26,34 @@ import Card from '../components/Card.astro';
 			If you have any suggestions about website, please reach us on <a href="https://github.com/CPPoliTO/cppolito">GitHub</a>.
 		</p>
 		
-		<div class="green-background-style">
-			<p><span class="text-gradient">Why consider Competitive Programming?</span></p>
+		<div class="dark-background-style">
+			<p><span class="text-gradient bold">Why consider Competitive Programming?</span></p>
 			<ul>
 				<li>
-					<span class="text-gradient">Professional growth: </span>
+					<span class="text-gradient bold">Professional growth: </span>
 					It's like a superpower for acing job interviews at big tech companies.
 					It's the best way to prepare for landing great Software Engineering jobs.
 					Plus, all major tech companies use it in their technical interviews.
 				</li>
 				<li>
-					<span class="text-gradient">Problem soliving: </span>
+					<span class="text-gradient bold">Problem soliving: </span>
 					It's fun and helps you become better at solving problems and coding like a pro.
 					Think of it as a cool programmers club where you learn and grow together.
 				</li>
 				<li>
-					<span class="text-gradient">Team work: </span>
+					<span class="text-gradient bold">Team work: </span>
 					We thrive in teams of three, combining diverse algorithms and mindsets
 					to tackle challenges effectively, especially in competitions.
 				</li>
 				<li>
-					<span class="text-gradient">Valuable networking: </span>
+					<span class="text-gradient bold">Valuable networking: </span>
 					You'll meet lots of cool people and companies at events
 					like <a href="https://swerc.eu/2023">SWERC</a>
 					who really want to hire people like you.
 					They love how good you get at solving tough problems!
 				</li>
 				<li>
-					<span class="text-gradient">Sponsored student trips: </span>
+					<span class="text-gradient bold">Sponsored student trips: </span>
 					Exciting opportunities await, including fully funded trips to amazing
 
 					<a href="https://swerc.eu/2023">SWERC</a> locations.
@@ -130,6 +130,9 @@ import Card from '../components/Card.astro';
 		background-size: 400%;
 		background-position: 0%;
 	}
+	.bold {
+		font-weight: bold;
+	}
 	.instructions {
 		line-height: 1.6;
 		margin: 1rem 0;
@@ -155,19 +158,19 @@ import Card from '../components/Card.astro';
 		gap: 1rem;
 		padding: 0;
 	}
-	ul, .green-background-style {
-		list-style-type: none; /* Remove default bullet points */
+	ul, .dark-background-style {
+		list-style-type: none;
 		margin-top: 1rem;
 		padding-left: 2rem;
-		background-color: #006400; /* Dark green background color */
+		background-color: #1e1e1e;
 		color: #fff;
 		border-radius: 4px;
 		padding: 0.3em 0.45em;
 	}
 	ul li {
 		position: relative;
-		padding-left: 1.5rem; /* Adjust padding for text */
-   		padding-bottom: 0.5rem; /* Add padding between list items */
+		padding-left: 1.5rem;
+   		padding-bottom: 0.5rem;
 	}
 	ul li:before {
 		content: "\2605";
