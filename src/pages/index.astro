@@ -27,7 +27,7 @@ import Card from '../components/Card.astro';
 			If you have any suggestions related to the web page, please reach us on
 			<a href="https://github.com/CPPoliTO/cppolito">GitHub</a>.
 		</p>
-		<p class="bulletBody">
+		<p class="green-background-style">
 			Why consider Competitive Programming?
 			<ul>
 				<li>
@@ -154,21 +154,31 @@ import Card from '../components/Card.astro';
 		gap: 1rem;
 		padding: 0;
 	}
-	ul, bulletBody {
+	.green-background-style {
 		list-style-type: none; /* Remove default bullet points */
 		margin-top: 1rem;
 		padding-left: 2rem;
 		background-color: #006400; /* Dark green background color */
-		color: #fff; /* Text color */
+		color: #fff;
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
 	}
-
+	ul {
+		list-style-type: none; /* Remove default bullet points */
+		margin-top: 1rem;
+		padding-left: 2rem;
+		background-color: #006400; /* Dark green background color */
+		color: #fff;
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
+	}
 	ul li {
 		position: relative;
 		padding-left: 1.5rem; /* Adjust padding for text */
+   		padding-bottom: 0.5rem; /* Add padding between list items */
 	}
-
 	ul li:before {
-		content: '\2022'; /* Unicode for a bullet (you can change this to any character you like) */
+		content: "\2605";
 		position: absolute;
 		left: 0;
 		color: #f0f; /* Color of bullet */
