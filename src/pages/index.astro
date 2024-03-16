@@ -7,13 +7,13 @@ import Card from '../components/Card.astro';
 	<main>
 		<h1><span class="text-gradient">CPPoliTO</span></h1>
 
-		<p class="instructions">
+		<p class="instructions dark-gray-background">
 			Welcome to the official website of the student team 
 			<strong>Competitive Programming Politecnico di Torino</strong>!
 			<br /> <br />
 
 			We are a group of competitive programmers actively engaged in national and international coding competitions,
-			proudly representing <a href="https://www.polito.it">PoliTO</a>.
+			proudly representing <a href="https://www.polito.it" class="white-link">PoliTO</a>.
 			<br />
 			Famous for our expertise in coding, algorithms, and complex data structures,
 			we tackle challenges with our skills.
@@ -23,7 +23,7 @@ import Card from '../components/Card.astro';
 			we redefine what it means to be <span style="color: orange;">cool programmers</span>!
 			<br /> <br />
 
-			If you have any suggestions about website, please reach us on <a href="https://github.com/CPPoliTO/cppolito">GitHub</a>.
+			If you have any suggestions about website, please reach us on <a href="https://github.com/CPPoliTO/cppolito class="white-link"">GitHub</a>.
 		</p>
 		
 		<div class="dark-background-style">
@@ -48,7 +48,7 @@ import Card from '../components/Card.astro';
 				<li>
 					<span class="text-gradient bold">Valuable networking: </span>
 					You'll meet lots of cool people and companies at events
-					like <a href="https://swerc.eu/2023">SWERC</a>
+					like <a href="https://swerc.eu/2023" class="white-link">SWERC</a>
 					who really want to hire people like you.
 					They love how good you get at solving tough problems!
 				</li>
@@ -56,7 +56,7 @@ import Card from '../components/Card.astro';
 					<span class="text-gradient bold">Sponsored student trips: </span>
 					Exciting opportunities await, including fully funded trips to amazing
 
-					<a href="https://swerc.eu/2023">SWERC</a> locations.
+					<a href="https://swerc.eu/2023" class="white-link">SWERC</a> locations.
 					Recent venues have included Milan, Paris, and Porto,
 					offering unforgettable experiences alongside invaluable learning opportunities.
 				</li>
@@ -141,6 +141,9 @@ import Card from '../components/Card.astro';
 		padding: 1rem;
 		border-radius: 0.4rem;
 	}
+	.dark-gray-background {
+		background-color: background-color: #1e1e1e;
+	}
 	.instructions code {
 		font-size: 0.875em;
 		font-weight: bold;
@@ -177,5 +180,13 @@ import Card from '../components/Card.astro';
 		position: absolute;
 		left: 0;
 		color: rgb(var(--accent));
+	}
+	a.white-link {
+		color: #fff; /* Sets the link color to white */
+		text-decoration: none; /* Removes the underline */
+	}
+
+	a.white-link:hover {
+		text-decoration: underline; /* Adds underline on hover */
 	}
 </style>
